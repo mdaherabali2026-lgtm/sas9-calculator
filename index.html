@@ -529,6 +529,32 @@ if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(()=>{}));
 }
 </script>
+
+<script>
+// Google AdMob Test Banner
+const TEST_BANNER_ID = 'ca-app-pub-3940256099942544/6300978111'; // গ্লোবাল টেস্ট ব্যানার আইডি
+
+async function loadAdMobBanner() {
+  if (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.AdMob) {
+    const { AdMob } = window.Capacitor.Plugins;
+    try {
+      await AdMob.initialize();
+      await AdMob.showBanner({
+        adId: TEST_BANNER_ID,
+        adSize: 'BANNER',
+        position: 'BOTTOM_CENTER',
+        margin: 0,
+        isTesting: true // টেস্ট মোড চালু
+      });
+    } catch (e) {
+      console.log("AdMob error:", e);
+    }
+  }
+}
+document.addEventListener("DOMContentLoaded", loadAdMobBanner);
+</script>
+
+  
 </body>
 </html>
 
