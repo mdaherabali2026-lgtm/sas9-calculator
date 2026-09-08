@@ -1,7 +1,7 @@
 {
   "id": "/sas9-calculator/",
-  "name": "SAS9 1654X Advanced Calculator",
-  "short_name": "SAS9 Calc",
+  "name": "RealClic Calculator Business And Scientific",
+  "short_name": "RealClic Calculator",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#17191b",
