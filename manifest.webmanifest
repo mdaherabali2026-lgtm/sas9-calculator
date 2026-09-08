@@ -1,27 +1,21 @@
 {
-  "name": "SAS9 1654X — Advanced Electronic Calculator",
-  "short_name": "SAS9 1654X",
-  "description": "SAS9 1654X Advanced Electronic Calculator",
-  "start_url": "./",
-  "scope": "./",
+  "id": "/sas9-calculator/",
+  "name": "SAS9 1654X Advanced Calculator",
+  "short_name": "SAS9 Calc",
+  "start_url": "./index.html",
   "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#111111",
+  "background_color": "#17191b",
   "theme_color": "#17191b",
-  "lang": "en",
-  "categories": [
-    "utilities",
-    "productivity"
-  ],
+  "orientation": "portrait",
   "icons": [
     {
-      "src": "icons/icon-192.png",
+      "src": "./icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-512.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
