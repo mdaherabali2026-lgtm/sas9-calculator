@@ -1,8 +1,10 @@
 [{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.siraz.sas9calculator",
-        "sha256_cert_fingerprints": ["06:1B:DE:92:14:9F:41:4F:16:C5:82:4B:A4:D2:C3:66:13:61:87:7F:D8:71:FA:C3:C1:11:B3:0B:73:47:60:19"]
-      }
-    }]
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.siraz.sas9calculator",
+    "sha256_cert_fingerprints": [
+      "49:41:AC:E6:60:E2:9D:68:38:77:1B:9C:DA:DF:A2:DF:F7:6D:DB:B7:2D:3C:37:0D:A9:97:4D:74:7C:FE:5D:10"
+    ]
+  }
+}]
